@@ -1,0 +1,5 @@
+export { ClientsSection } from "./ClientsSection"
+export { FeaturesSection } from "./FeaturesSection"
+export { ServiceSection } from "./ServiceSection"
+export { SolutionSection } from "./SolutionSection"
+export { SubscribeSection } from "./SubscribeSection"

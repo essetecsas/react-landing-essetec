@@ -1,0 +1,29 @@
+.footer {
+  background-color: #0f1b42;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer-list-title {
+  font-size: 16px;
+  color: var(--bs-white);
+}
+.footer-list-menu li a {
+  display: inline-block;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 14px;
+  transition: all 0.4s;
+}
+.footer-list-menu li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-icons {
+  color: var(--bs-white);
+  font-size: 18px;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+.footer-icons:hover {
+  color: var(--bs-gray-400);
+}
