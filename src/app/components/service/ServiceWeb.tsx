@@ -31,7 +31,7 @@ const WEB_SERVICES = [
   },
 ];
 
-export default function ServiceWeb() {
+export const ServiceWeb = () => {
   return (
     <section id="dev_web">
       <h4>Desarrollo Web</h4>
@@ -90,4 +90,4 @@ export default function ServiceWeb() {
       </div>
     </section>
   );
-}
+};

@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-export default function ServiceDetail({ items, onSelect }) {
+export const ServiceDetail = ({ items, onSelect }) => {
   return (
     <div>
       <h4>Servicios</h4>
@@ -45,4 +45,4 @@ export default function ServiceDetail({ items, onSelect }) {
       </div>
     </div>
   );
-}
+};

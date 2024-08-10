@@ -223,7 +223,7 @@ const CARDS_OM = [
   },
 ];
 
-export default function ServiceInfraestructure() {
+export const ServiceInfraestructure = () => {
   return (
     <div id="infraestructure">
       <h4>Infraestructura & Outsorcing de tecnología</h4>
@@ -341,4 +341,4 @@ export default function ServiceInfraestructure() {
       </div>
     </div>
   );
-}
+};

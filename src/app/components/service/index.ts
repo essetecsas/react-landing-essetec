@@ -1,6 +1,6 @@
-export { default as CardServiceDetail } from "./CardServiceDetail";
-export { default as ServiceDetail } from "./ServiceDetail";
-export { default as ServiceInfraestructure } from "./ServiceInfraestructure";
-export { default as ServiceSecurity } from "./ServiceSecurity";
-export { default as ServiceWeb } from "./ServiceWeb";
+export { CardServiceDetail } from "./CardServiceDetail";
+export { ServiceDetail } from "./ServiceDetail";
+export { ServiceInfraestructure } from "./ServiceInfraestructure";
+export { ServiceSecurity } from "./ServiceSecurity";
+export { ServiceWeb } from "./ServiceWeb";
 

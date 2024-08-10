@@ -81,7 +81,7 @@ const BRANDS = [
   },
 ];
 
-export default function ServiceSecurity() {
+export const ServiceSecurity = () => {
   return (
     <div>
       <h4>Seguridad electrónica</h4>
@@ -150,4 +150,4 @@ export default function ServiceSecurity() {
       </div>
     </div>
   );
-}
+};
