@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { Metadata, NextPage } from "next";
 
 import {
   ServiceSection,
@@ -8,7 +8,7 @@ import {
 } from "./components/home";
 import { HeroSection } from "./components/ui";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "ESSETEC",
   description:
     "Soluciones integrales que garanticen la protección de propiedades y activos mediante el uso de tecnologías innovadoras.",
