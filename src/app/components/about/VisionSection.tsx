@@ -4,9 +4,6 @@ export const VisionSection = () => {
     <div className="justify-content-center row" id="vision">
       <div className="col-lg-6">
         <div className="mb-5">
-          {/* <h5 className="text-primary text-uppercase small-title">
-                Acerca de nosotros
-              </h5> */}
           <h3 className="mb-3">Visión</h3>
           <p>
             Ser reconocidos como líderes en soluciones integrales de seguridad
