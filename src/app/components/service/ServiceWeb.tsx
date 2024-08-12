@@ -1,4 +1,5 @@
 import { FaCircleCheck } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const WEB_SERVICES = [
   {
@@ -33,7 +34,7 @@ const WEB_SERVICES = [
 
 export const ServiceWeb = () => {
   return (
-    <section id="dev_web">
+    <div>
       <h4>Desarrollo Web</h4>
       <hr />
       <p>
@@ -88,6 +89,6 @@ export const ServiceWeb = () => {
           ayudarle a alcanzar sus objetivos.
         </p>
       </div>
-    </section>
+    </div>
   );
 };

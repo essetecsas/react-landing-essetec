@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { CarrouselBrand } from "../ui";
 
 const BRANDS_SP = [
@@ -225,7 +226,7 @@ const CARDS_OM = [
 
 export const ServiceInfraestructure = () => {
   return (
-    <div id="infraestructure">
+    <div>
       <h4>Infraestructura & Outsorcing de tecnología</h4>
       <hr />
       <p>
