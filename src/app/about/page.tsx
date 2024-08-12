@@ -3,7 +3,7 @@ import { MisionSection, VisionSection, OurValues } from "../components/about";
 import { HeroSection } from "../components/ui";
 
 export const metadata: Metadata = {
-  title: "ESSETEC",
+  title: "Essetec | Nosotros",
   description:
     "En ESSETEC, proporcionamos soluciones integrales para proteger propiedades y activos mediante tecnologías innovadoras. Nos especializamos en seguridad electrónica, consultoría tecnológica, diseño de infraestructura y desarrollo web. Nuestro compromiso con la excelencia y la innovación nos posiciona como líderes en la transformación digital, brindando tranquilidad y confianza a nuestros clientes en un mundo cada vez más digital.",
 };

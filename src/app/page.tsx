@@ -9,7 +9,7 @@ import {
 import { HeroSection } from "./components/ui";
 
 export const metadata: Metadata = {
-  title: "ESSETEC",
+  title: "Essetec | Inicio",
   description:
     "Soluciones integrales que garanticen la protección de propiedades y activos mediante el uso de tecnologías innovadoras.",
 };
