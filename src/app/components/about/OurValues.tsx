@@ -4,7 +4,7 @@ import { IoMdTrendingUp } from "react-icons/io";
 import { IoMdRibbon } from "react-icons/io";
 import { IoIosPeople } from "react-icons/io";
 
-const values = [
+const ITEMS = [
   {
     name: "Innovación constante",
     icon: <IoMdTrendingUp className="icons-md" />,
@@ -35,7 +35,7 @@ export const OurValues = () => {
           <h3 className="text-primary text-uppercase">Nuestros Valores</h3>
         </div>
         <div className="row">
-          {values.map(({ name, icon }, i) => (
+          {ITEMS.map(({ name, icon }, i) => (
             <div key={i} className="col text-center p-4 mt-3">
               <div className="avatar-md mx-auto mb-4">
                 <span className="avatar-title rounded-circle bg-soft-primary">
