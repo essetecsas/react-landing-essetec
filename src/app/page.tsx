@@ -7,6 +7,7 @@ import {
   SolutionSection,
 } from "./components/home";
 import { HeroSection } from "./components/ui";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Essetec | Inicio",
@@ -17,6 +18,12 @@ export const metadata: Metadata = {
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="eLtZVRqL1C2l1RBNKajVytGyQPAGF0pfrW6VWG-w9-A"
+        />
+      </Head>
       <HeroSection description="Convierte tu negocio en una experiencia tecnológica sorprendente, única e innovadora." />
       <ServiceSection />
       <FeaturesSection />
