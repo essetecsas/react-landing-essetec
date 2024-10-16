@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 };
 
 const ServicePage: NextPage<any> = ({ params }) => {
-  console.log("params", params);
   return (
     <>
       <HeroSection
