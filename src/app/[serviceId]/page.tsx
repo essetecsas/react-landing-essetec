@@ -6,6 +6,19 @@ export const metadata: Metadata = {
   title: "Essetec | Servicios",
   description:
     "Explora nuestra variada oferta de servicios, desde desarrollo web hasta consultoría tecnológica. Nuestro equipo de expertos se dedica a ofrecerte soluciones personalizadas y eficientes para todas tus necesidades.",
+  keywords: [
+    "essetec",
+    "tecnología",
+    "programación",
+    "redes",
+    "infraestructura",
+    "seguridad",
+    "monitoreo",
+    "consultoría",
+    "soluciones",
+    "acceso",
+    "consultoría",
+  ],
 };
 
 const ServicePage: NextPage<any> = ({ params }) => {
