@@ -75,7 +75,7 @@ export const Footer = () => {
               <h5 className="footer-list-title mb-4">Contacto</h5>
               <div className="d-flex align-items-center">
                 <MdPhone className="icons-sm" />
-                <h5 className="footer-list-title mx-2">+57 312 5171049</h5>
+                <h5 className="footer-list-title mx-2">+57 3208921420</h5>
               </div>
               <div className="d-flex align-items-center">
                 <MdEmail className="icons-sm" />

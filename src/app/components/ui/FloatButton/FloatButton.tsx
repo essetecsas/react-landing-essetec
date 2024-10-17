@@ -8,7 +8,7 @@ export const FloatButton = () => {
     <motion.a
       className="btn-float box-shadow"
       type="button"
-      href="https://wa.me/message/GMECUQZG7TF2B1"
+      href="https://wa.me/573208921420"
       target="_blank"
       aria-label="float button"
       whileHover={{ scale: 1.2 }}
