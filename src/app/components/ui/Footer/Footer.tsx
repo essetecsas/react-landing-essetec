@@ -79,7 +79,9 @@ export const Footer = () => {
               </div>
               <div className="d-flex align-items-center">
                 <MdEmail className="icons-sm" />
-                <h5 className="footer-list-title mx-2">essetecsas@gmail.com</h5>
+                <h5 className="footer-list-title mx-2">
+                  contacto@essetecsas.com
+                </h5>
               </div>
             </div>
 
@@ -91,8 +93,15 @@ export const Footer = () => {
                 height={70}
                 priority
               />
-              <p>CEO - Ing. Daniel Alfonso Sánchez</p>
+              <div>
+                <span>Ing. Daniel Alfonso Sánchez</span>
+                <br></br>
+                <span>CEO - Co-founder</span>
+                <br></br>
+                <span>daniel.alfonso@essetecsas.com</span>
+              </div>
             </div>
+            <br></br>
             <div className="d-flex align-items-center">
               <Image
                 src="/images/emojis/CFO.png"
@@ -101,7 +110,13 @@ export const Footer = () => {
                 height={70}
                 priority
               />
-              <p>CFO - C.P. Erika Coji</p>
+              <div>
+                <span>C.P. Erika Coji</span>
+                <br></br>
+                <span>CFO - Co-founder</span>
+                <br></br>
+                <span>erika.coji@essetecsas.com</span>
+              </div>
             </div>
           </div>
         </div>
